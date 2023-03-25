@@ -99,7 +99,6 @@ body {
   border: none;
   background-color: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -396,6 +395,7 @@ body {
 .skill-container {
   max-width: 90rem;
   margin: auto;
+  /* padding: 0 15rem; */
 }
 
 /* ********************** */
@@ -408,8 +408,7 @@ body {
 }
 
 .cta-container {
-  max-width: 100rem;
-  margin: 0 auto;
+  padding: 0 5rem;
 }
 
 .contact-main {
@@ -508,7 +507,7 @@ body {
 /* ********************** * */
 
 .section-footer {
-  padding: 2rem 0;
+  padding: 3rem 0;
   /* background-color: #c17127; */
 }
 

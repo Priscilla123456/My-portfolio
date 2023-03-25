@@ -137,8 +137,6 @@
 @media (max-width: 50em) {
   .intro {
     grid-template-columns: 1fr;
-
-    row-gap: 30.8;
   }
 
   .intro-text-box {
