@@ -67,10 +67,6 @@ body {
   color: #555;
 }
 
-.header-description {
-  font-size: 1.5rem;
-}
-
 .main-nav-list {
   display: flex;
   align-items: center;

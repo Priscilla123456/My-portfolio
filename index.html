@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" href="img/Business__28148_29.webp" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800;900&family=League+Spartan:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;600;700&display=swap"
@@ -37,7 +38,7 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#intro">Home</a></li>
-          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#about">About </a></li>
           <li><a class="main-nav-link" href="#service">Service</a></li>
           <li><a class="main-nav-link" href="#skills">Skills</a></li>
           <li><a class="main-nav-link" href="#cta">Contact</a></li>
@@ -50,7 +51,7 @@
       </button>
     </header>
 
-    <section class="section-intro" id="intro">
+    <section class="section-intro" id="intro" data-aos="fade-up">
       <div class="intro">
         <div class="intro-text-box">
           <div class="line-top"></div>
@@ -73,7 +74,7 @@
       </div>
     </section>
 
-    <section class="section-about" id="about">
+    <section class="section-about" id="about" data-aos="fade-left">
       <div class="container about-me-container">
         <div class="intro-img-1">
           <picture>
@@ -122,7 +123,7 @@
       </div>
     </section>
 
-    <section class="section-services" id="service">
+    <section class="section-services" id="service" data-aos="fade-right">
       <div class="container">
         <div class="services-container">
           <div>
@@ -171,7 +172,7 @@
       </div>
     </section>
 
-    <section class="section-skills" id="skills">
+    <section class="section-skills" id="skills" data-aos="fade-left">
       <div class="container">
         <div class="skills-name">
           <h2 class="skills-main">Skills</h2>
@@ -203,7 +204,7 @@
       </div>
     </section>
 
-    <section class="section-cta" id="cta">
+    <section class="section-cta" id="cta" data-aos="fade-up">
       <div class="container">
         <div class="cta-container">
           <div>
@@ -301,6 +302,13 @@
       </div>
     </footer>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000,
+    });
+  </script>
   <script
     type="module"
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
