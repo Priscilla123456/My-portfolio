@@ -89,6 +89,20 @@ body {
   color: #c17127;
 }
 
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #c17127;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #ce8141;
+}
+
 /* MOBILE */
 
 .btn-mobile-nav {
