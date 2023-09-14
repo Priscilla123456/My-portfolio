@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "img/Business__28148_29.webp",
+      "type": "img/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/Business__28148_29.webp",
+      "type": "img/png",
+      "sizes": "512x512"
+    }
+  ]
+}
